@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer)
   planeteer.collect do |item|
-    item.capitali
+    "#{item.capitalize}!"
   end
 end
 
